@@ -44,12 +44,26 @@
 .col12 {
     width: 940px;
 } 
-    background: #CCC;
-    display: block;
-    float: left;
-    height: 30px;
-    line-height: 30px;
-    margin: 0 10px 0 10px;
+.container {
+    background: #555;
+    margin: 0;
     padding: 0;
-    text-align: center;
+    width: 960px;
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.container:after,
+.row:after {
+    clear:both;
+}
+
+.row {
+    clear: both;
+    margin: 10px 0 10px 0;
 } 
