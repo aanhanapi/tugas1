@@ -1,0 +1,98 @@
+.wrap{
+	background: rgb(149, 149, 172);
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+.wrap .header{
+	background-image: url('gambar2.jpg');
+	/*height: 50px;*/
+	padding: 2px 10px;
+    color: rgb(255, 238, 0);
+    font: bold small-caption;
+}
+
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+
+.wrap .badan .sidebar{
+	background: orange;
+	float: right;	
+	width: 25%;
+	height: 100%;
+    
+}
+ 
+.wrap .badan .content{
+	background: red;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 5px;
+}
+.mymenu{
+	background-color: #3141ff;
+}
+ 
+.mymenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.mymenu > ul > li {
+	float: left;
+}
+
+	
+.mymenu li a {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ 
+.mymenu li a:hover{
+	background-color: #fbff25;
+}
+ 
+li.dropdown {
+	display: inline-block;
+}
+ 
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+ 
+.isi-dropdown a:hover {
+	color: rgb(245, 6, 205) !important;
+}
+ 
+.isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(250, 2, 2, 0.2);
+	z-index: 1;
+	background-color: #d8c730;
+}
+ 
+.isi-dropdown a {
+	color: #0a000085 !important;
+}
+ 
+.isi-dropdown a:hover {
+	color: #000000 !important;
+	background: #0139f1 !important;
+}
