@@ -1,9 +1,10 @@
 .wrap{
-	background: rgb(149, 149, 172);
+	background: white 149, 149, 172;
 	width: 900px;
 	margin: 10px auto;
 }
  
+/*bagian header*/
 .wrap .header{
 	background-image: url('gambar2.jpg');
 	/*height: 50px;*/
@@ -11,14 +12,15 @@
     color: rgb(255, 238, 0);
     font: bold small-caption;
 }
-
+ 
  
 .clear{
 	clear: both;
 }
  
 .badan{
-	height: 450px;
+	height: auto;
+	padding: 0px 16px 0px 16px;
 }
 
 .wrap .badan .sidebar{
@@ -30,18 +32,21 @@
 }
  
 .wrap .badan .content{
-	background: red;
+	background: white 38, 180, 141;
 	float: left;
 	height: 100%;
-	width: 75%;	
+	width: 75%;
+	padding: 0px 16px 0px px;
 }
  
 .wrap .footer{
 	width: 100%;
 	padding: 5px;
+	background-color: bisque;
 }
 .mymenu{
-	background-color: #3141ff;
+		background-color: #e4ec9a;
+		border-radius: 50px;
 }
  
 .mymenu ul {
@@ -50,12 +55,12 @@
 	padding: 0;
 	overflow: hidden;
 }
-
+ 
 .mymenu > ul > li {
 	float: left;
+	z-index: 1;
 }
-
-	
+ 
 .mymenu li a {
 	display: inline-block;
 	color: rgb(0, 0, 0);
@@ -85,8 +90,8 @@ li.dropdown {
 	display: none;
 	box-shadow: 0px 8px 16px 0px rgba(250, 2, 2, 0.2);
 	z-index: 1;
-	background-color: #d8c730;
-}
+	background-color: pink;
+	}
  
 .isi-dropdown a {
 	color: #0a000085 !important;
@@ -96,3 +101,25 @@ li.dropdown {
 	color: #000000 !important;
 	background: #0139f1 !important;
 }
+
+.kolom .deskripsi {
+	font-size: 30px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    color: rgb(38, 0, 255);
+	text-align: center;
+	margin-left: 16px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+	margin-left: 200px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+	text-align: center;
+}
+
