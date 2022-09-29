@@ -1,0 +1,191 @@
+.wrap{
+	background: white 149, 149, 172;
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+.wrap .header{
+	padding: 2px 10px;
+    color:  #06283D;
+    font-family: 'comic sans ms';
+	background: #FFA1CF;
+	border-radius:50px ;
+}
+ 
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: auto;
+	padding: 0px 16px 0px 16px;
+}
+
+.wrap .badan .sidebar{
+	background: orange;
+	float: right;	
+	width: 25%;
+	height: 500px;
+	list-style: none;
+	background-color: #3097af;
+	border: none;
+	background-color: #3097af;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer
+	
+    
+}
+ 
+.wrap .badan .content{
+	background: white 38, 180, 141;
+	float: left;
+	height: 100%;
+	width: 75%;
+	padding: 10px
+}
+ 
+
+.mymenu{
+		background-color: #e4ec9a;
+		border-radius: 50px;
+		
+}
+ 
+.mymenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ 
+.mymenu > ul > li {
+	float: left;
+	z-index: 1;
+}
+ 
+.mymenu li a {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ 
+.mymenu li a:hover{
+	background-color: #fbff25;
+}
+ 
+li.dropdown {
+	display: inline-block;
+}
+ 
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+ 
+.isi-dropdown a:hover {
+	color: rgb(245, 6, 205) !important;
+}
+ 
+.isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(250, 2, 2, 0.2);
+	z-index: 1;
+	background-color: pink;
+	}
+ 
+.isi-dropdown a {
+	color: #0a000085 !important;
+}
+ 
+.isi-dropdown a:hover {
+	color: #000000 !important;
+	background: #0139f1 !important;
+}
+
+.kolom .deskripsi {
+	font-size: 30px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    color: rgb(38, 0, 255);
+	text-align: center;
+	margin-left: 16px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+
+  .sidebar li a {
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid silver;
+	transition: background-color 0.5s;
+  }
+  .sidebar li a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+  }
+
+#more {display: flex;
+background: #3097af;}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.id_mahasiswa {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.identitas {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.identitas img {
+    width: 80%;
+	height: 80%;
+    border-radius: 50%;
+}
+
+.identitas p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.wrap .footer{
+	width: 100%;
+	padding: 5px;
+	background-color: #CBA0AE;
+	text-align: center;
+}
