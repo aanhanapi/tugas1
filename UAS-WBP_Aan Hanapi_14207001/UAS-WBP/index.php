@@ -6,7 +6,6 @@
     </head>
 <body>
 	<br/>
-	<!-- cek pesan notifikasi -->
 	<?php 
 	if(isset($_GET['pesan'])){
 		if($_GET['pesan'] == "gagal"){
